@@ -42,7 +42,7 @@ const posts = fs.readdirSync(POSTS_DIR)
   .map(fileName => {
     const fileMd = fs.readFileSync(path.join(POSTS_DIR, fileName), 'utf8')
     const { data, content: rawContent } = matter(fileMd)
-    const { title, date } = data
+    const { author, title, date } = data
     const slug = fileName.split('.')[0]
     let content = rawContent
     let excerpt = ''
@@ -59,6 +59,7 @@ const posts = fs.readdirSync(POSTS_DIR)
     const printDate = formatDate(new Date(date), 'MMMM D, YYYY')
 
     return {
+      author,
       title: title || slug,
       slug,
       html,

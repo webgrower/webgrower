@@ -54,5 +54,6 @@
     {@html post.html}
   </article>
   <hr />
-  <Bio />
+
+  <Bio author={post.author} />
 </div>

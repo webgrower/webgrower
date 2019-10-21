@@ -1,3 +1,9 @@
+<script>
+  import authors from '../dicts/authors';
+  export let author
+  export let authorInfo = authors[author];
+</script>
+
 <style>
   div {
     align-items: center;
@@ -19,11 +25,8 @@
 </style>
 
 <div>
-  <img src="ron-swanson-simpsons.jpg" alt="Nikita Makhov">
+  <img src={authorInfo.avatar} alt="Nikita Makhov">
   <p>
-    Hi, I'm <strong>Defite</strong>. I'm a frontend web-developer from Moscow, Russia 🇷🇺.
-    You can follow me on <a href="https://www.twitter.com/life_maniac" target="_blank">Twitter</a>,
-    see some of my work on <a href="https://www.github.com/Defite" target="_blank">GitHub</a>,
-    or read more about me on <a href="https://defite.rum" target="_blank">my website</a>.
+    Hi, I'm <strong>{authorInfo.name}</strong>. {@html authorInfo.bio}
   </p>
 </div>
