@@ -16,7 +16,7 @@ Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
-## 📝Writing posts
+## 📝 Writing posts
 
 All blog content is stored in `content/posts`. We use [Markdown](https://daringfireball.net/projects/markdown/) for our posts. Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt". Frontmatter properties supported are `author`, `title` and `date`. You can find authors list [here](https://github.com/webgrower/webgrower/blob/master/src/dicts/authors.js).
 
