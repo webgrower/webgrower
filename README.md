@@ -26,4 +26,4 @@ Deploy is automatic through [Now.sh](https://zeit.co/). You don't need to write 
 
 ## 🐛 Bugs and feedback
 
-Webgrower is in early development, there may be bugs and 'features'. You may left your issues in our [tracker](https://github.com/webgrower/webgrower/issues).
+Webgrower is in early development, there may be bugs and 'features'. You may leave your issues in our [tracker](https://github.com/webgrower/webgrower/issues).
