@@ -7,7 +7,7 @@ const authors = {
        see some of my work on <a href="https://www.github.com/Defite" target="_blank">GitHub</a>,
        or read more about me on <a href="https://defite.rum" target="_blank">my website</a>.`
     },
-    chrome: {
+    ikhrome: {
         name: 'Ivan Khromov',
         avatar: 'ron-swanson-simpsons.jpg',
         bio: ''
